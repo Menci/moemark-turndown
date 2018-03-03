@@ -1,0 +1,22 @@
+{
+  "name": "moemark-turdown",
+  "version": "1.0.0",
+  "description": "Convert hexo article back to markdown",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Menci",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs-extra": "^5.0.0",
+    "highlight.js": "^9.12.0",
+    "js-yaml": "^3.10.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "readline-sync": "^1.4.9",
+    "turndown": "^4.0.1",
+    "turndown-plugin-gfm": "^1.0.1"
+  }
+}
